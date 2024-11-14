@@ -1,2 +1,2 @@
-# programy-a-data
+# programy a data
 Webové stránky k tématu Programy a data
