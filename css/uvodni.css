@@ -1,0 +1,54 @@
+/* nastaveni tela stranky*/
+h1 {
+  color: red;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/bgig.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* nastaveni zahlavi*/
+header {
+  background-color: #0b0ed8;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+header h1 {
+  font-size: 3em;
+}
+header p {
+  font-size: 2em;
+}
+/* nastaveni hlavni casti */
+main {
+  background-color: yellow;
+  width: 1200px;
+  margin: 50px auto;
+}
+
+/* nastaveni flexboxu */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container div{
+  background-color: #089b8f;
+  padding: 20px;
+  margin: 20px;
+  flex: 25%;
+}
+
+/* responsive design */
+@media screen and (max-width: 1200px) {
+  main {
+    width: 90%;
+  }
+
+
+.flex-container{
+  flex-direction: column;
+}
+}
