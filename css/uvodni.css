@@ -28,7 +28,9 @@ main {
   width: 1200px;
   margin: 50px auto;
 }
-
+h2{
+  text-align: center;
+}
 /* nastaveni flexboxu */
 .flex-container {
   display: flex;
@@ -41,6 +43,10 @@ main {
   flex: 25%;
 }
 
+a:hover{
+  background-color: blue;
+  color: white;
+}
 /* responsive design */
 @media screen and (max-width: 1200px) {
   main {
