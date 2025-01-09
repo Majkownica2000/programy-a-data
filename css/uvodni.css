@@ -28,7 +28,7 @@ main {
   width: 1200px;
   margin: 50px auto;
 }
-h2{
+h2 {
   text-align: center;
 }
 /* nastaveni flexboxu */
@@ -36,15 +36,42 @@ h2{
   display: flex;
   flex-wrap: wrap;
 }
-.flex-container div{
+.flex-container div {
   background-color: #089b8f;
   padding: 20px;
   margin: 20px;
   flex: 25%;
 }
 
-a:hover{
+a:hover {
   background-color: blue;
+  color: white;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa6d;
   color: white;
 }
 /* responsive design */
@@ -53,8 +80,7 @@ a:hover{
     width: 90%;
   }
 
-
-.flex-container{
-  flex-direction: column;
-}
+  .flex-container {
+    flex-direction: column;
+  }
 }
