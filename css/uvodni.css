@@ -1,4 +1,4 @@
-/* nastaveni tela stranky*/
+/* nastavení těla stránky */
 h1 {
   color: red;
 }
@@ -8,7 +8,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* nastaveni zahlavi*/
+/* nastavení záhlaví */
 header {
   background-color: #0b0ed8;
   color: white;
@@ -22,7 +22,7 @@ header h1 {
 header p {
   font-size: 2em;
 }
-/* nastaveni hlavni casti */
+/* nastavení hlavní části */
 main {
   background-color: yellow;
   width: 1200px;
@@ -31,7 +31,7 @@ main {
 h2 {
   text-align: center;
 }
-/* nastaveni flexboxu */
+/* nastavení flexboxu */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -47,13 +47,13 @@ a:hover {
   background-color: blue;
   color: white;
 }
-/* Add a black background color to the top navigation */
+/* Přidání černé barvy pozadí do horní navigace */
 .topnav {
   background-color: #333;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+/* Stylování odkazů uvnitř navigačního panelu */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -63,18 +63,18 @@ a:hover {
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* Změna barvy odkazů při najetí myší */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
+/* Přidání barvy aktivnímu/aktuálnímu odkazu */
 .topnav a.active {
   background-color: #04aa6d;
   color: white;
 }
-/* responsive design */
+/* responzivní design */
 @media screen and (max-width: 1200px) {
   main {
     width: 90%;
