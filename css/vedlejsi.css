@@ -1,3 +1,35 @@
+/* animace pro nadpisy h2, h3 */
+h2, h3, nav {
+  position: relative;
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    left: -100%;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+/* animace pro odstavec */
+h1, p, ul {
+  animation: fadeIn 3s forwards;
+}
+
+img {
+  animation: fadeIn 3s forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /* nastaveni obrazku v pozadi */
 body {
   background-color: cyan;
